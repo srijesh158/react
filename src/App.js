@@ -84,20 +84,35 @@
 // }
 // export default App
 
-import React from 'react'
-import PropsChildrenex from './propexample/propsChildren'
-import SubChildProps from './propexample/SubChildren'
+// import React from 'react'
+// import PropsChildrenex from './propexample/propsChildren'
+// import SubChildProps from './propexample/SubChildren'
 
-const App = () => {
-  return (
-    <div>
-      <PropsChildrenex username="srijesh" company="meta">
-        <h1>This data is passing as a props children to child compoent</h1>
-        <SubChildProps/>
-      </PropsChildrenex>
-    </div>
-  )
-}
-export default App
+// const App = () => {
+//   return (
+//     <div>
+//       <PropsChildrenex username="srijesh" company="meta">
+//         <h1>This data is passing as a props children to child compoent</h1>
+//         <SubChildProps/>
+//       </PropsChildrenex>
+//     </div>
+//   )
+// }
+// export default App
+
+
+
+import CBCStateEx from './stateexamples/CBCStateEx';
+const App=()=> {
+  
+    return (
+      <div>
+        <CBCStateEx/>
+      </div>
+      
+    )
+  }
+
+export default App;
 
 
