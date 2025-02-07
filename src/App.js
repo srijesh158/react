@@ -102,17 +102,26 @@
 
 
 
-import CBCStateEx from './stateexamples/CBCStateEx';
-const App=()=> {
+// import CBCStateEx from './stateexamples/CBCStateEx';
+// const App=()=> {
   
-    return (
-      <div>
-        <CBCStateEx/>
-      </div>
+//     return (
+//       <div>
+//         <CBCStateEx/>
+//       </div>
       
-    )
-  }
+//     )
+//   }
 
+// export default App;
+
+
+function App() {
+    return (
+        <div className="App">
+            <h1 class='heading'>Hello this is successfull</h1>
+            <h2 class={StyleSheet.error}>errorrr !!! 404 not found</h2>
+        </div>
+    );
+}
 export default App;
-
-
