@@ -116,12 +116,27 @@
 // export default App;
 
 
+//  function App() {
+//      return (
+//          <div className="App">
+//              <h1 class='heading'>Hello this is successfull</h1>
+//              <h2 class={StyleSheet.error}>errorrr !!! 404 not found</h2>
+//          </div>
+//      );
+//  }
+//  export default App;
+
+import React from 'react'
+import MyForm from './components/myForm'
+
+
+
 function App() {
-    return (
-        <div className="App">
-            <h1 class='heading'>Hello this is successfull</h1>
-            <h2 class={StyleSheet.error}>errorrr !!! 404 not found</h2>
-        </div>
-    );
+  return (
+    <div className="App">
+     <MyForm></MyForm>
+     </div>
+  );
 }
+
 export default App;

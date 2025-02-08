@@ -1,9 +1,14 @@
-.heading{
-    color: orange;
-    background-color: blue;
+.heading1{
+    color:yellow;
+    background-color: blueviolet;
+}
+
+.heading2{
+    color:red;
+    background-color: black;
 }
 
 .font-style{
     font-size: 100px;
-    font-family: 'Times New Roman',
+    font-family: 'Times New Roman', Times, serif;
 }
