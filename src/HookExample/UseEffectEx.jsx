@@ -25,10 +25,10 @@ const UseEffectEx = () => {
         {
             users.map((user,index)=>{
                 return(
-                    <div key={index}>
+                    <React.Fragment key={index}>
                         <h1>{user.name}</h1>
                         <h3>{user.email}</h3>
-                    </div>
+                    </React.Fragment>
                 )})
         }
     </div>
