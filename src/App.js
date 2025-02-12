@@ -153,14 +153,26 @@
 // }
 // export default App;
 
+// import React from 'react'
+// import RefExample from './HookExample/RefExample'
+
+// export const App = () => {
+//   return (
+//     <div>
+//       <RefExample />
+//     </div>
+//   )
+// }
+// export default App;
+
 import React from 'react'
-import RefExample from './HookExample/RefExample'
+import Navbar from './Components2/Navbar'
 
 export const App = () => {
   return (
     <div>
-      <RefExample />
+      <Navbar/>
     </div>
   )
 }
-export default App;
+export default App
